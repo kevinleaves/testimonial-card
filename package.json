@@ -1,0 +1,23 @@
+{
+  "name": "testimonial-card",
+  "version": "1.0.0",
+  "description": "project for gfe projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinleaves/testimonial-card.git"
+  },
+  "author": "kevin le",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinleaves/testimonial-card/issues"
+  },
+  "homepage": "https://github.com/kevinleaves/testimonial-card#readme",
+  "devDependencies": {
+    "vite": "^5.4.18"
+  }
+}
