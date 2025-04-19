@@ -150,4 +150,35 @@ Congratulations on submitting your completed challenge! 🚀 Here are some possi
 At GreatFrontEnd projects, we greatly value receiving feedback as it helps us continuously improve and refine our products/services to better meet the needs and expectations of our customers and stakeholders. If you have any feedback or questions, the best channels to reach out would be our [Discord community](https://www.greatfrontend.com/community), our [LinkedIn Page](https://www.linkedin.com/company/greatfrontend), or send an email to contact@greatfrontend.com.
 
 🔥 Good luck on your Front End Developer journey! 🔥
+
 # testimonial-card
+
+<body>
+    <div class="container">
+        <figure class="testimonial-card">
+        <figcaption class="testimonial-card__author">
+            <img
+            src="https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/projects-images/testimonial-card/starter/img/profile-thumbnail.jpg"
+            alt="Sarah Dole's profile picture" />
+            <div class="testimonial-card__author__info">
+            <div class="testimonial-card__author__info__name">Sarah Dole</div>
+            <div class="testimonial-card__author__info__username">
+                @sarahdole
+            </div>
+            </div>
+        </figcaption>
+        <blockquote>
+            <p>
+            I've been searching for high-quality abstract images for my design
+            projects, and I'm thrilled to have found this platform. The variety
+            and depth of creativity are astounding!
+            </p>
+        </blockquote>
+        </figure>
+    </div>
+</body>
+
+## NOTES FOR IMPROVEMENT:
+
+semantic HTML for accessibility:
+[figure](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/figure), [figcaption](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/figcaption), [blockquote](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/blockquote) elements.

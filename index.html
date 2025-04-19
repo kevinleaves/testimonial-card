@@ -21,23 +21,29 @@
     <style></style>
   </head>
   <body class="bg-[#F9FAFB]">
-    <!-- mx auto on the container rather than flex, justify-center on the body -->
-    <div
+    <!-- this is the container. mx auto on the container rather than flex, justify-center on the body -->
+    <figure
       class="flex flex-col w-[340px] mt-[200px] bg-white p-8 shadow-2xl rounded-xl mx-auto gap-4 border-2"
     >
-      <div class="flex gap-4">
-        <img src="/img/profile-thumbnail.png" class="w-[3rem]" />
+      <figcaption class="flex gap-4">
+        <img
+          src="/img/profile-thumbnail.png"
+          class="w-[3rem]"
+          alt="profile photo of sarah dole"
+        />
         <div class="flex flex-col">
           <span class="font-semibold text-lg">Sarah Dole</span>
           <span class="text-sm text-neutral-600">@sarahdole</span>
         </div>
-      </div>
-      <p class="text-base text-neutral-600">
-        I've been searching for high-quality abstract images for my design
-        projects, and I'm thrilled to have found this platform. The variety and
-        depth of creativity are astounding!
-      </p>
-    </div>
+      </figcaption>
+      <blockquote>
+        <p class="text-base text-neutral-600">
+          I've been searching for high-quality abstract images for my design
+          projects, and I'm thrilled to have found this platform. The variety
+          and depth of creativity are astounding!
+        </p>
+      </blockquote>
+    </figure>
 
     <script src="js/index.js"></script>
   </body>
